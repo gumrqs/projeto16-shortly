@@ -180,6 +180,8 @@ INSERT INTO public.users VALUES (7, 'cruiz', 'plp1l@gmail.com', '$2b$10$kGF4vrQc
 INSERT INTO public.users VALUES (8, 'derick', 'plpw1l@gmail.com', '$2b$10$KYCVw.EXoxwM3lKOVvH34.HNTdX5lSQ1jQpKL/Cdj2/B4HPwxtT6y', '2022-10-16 19:23:16.3417');
 INSERT INTO public.users VALUES (9, 'jefesro', 'plp3w1l@gmail.com', '$2b$10$hd0Q1rP8MCyUSjDWCWW2w.sD/FZDL3493eDATbhtbJKtW6XbGX7eC', '2022-10-16 19:23:24.679305');
 INSERT INTO public.users VALUES (10, 'leblanc', 'leblanc@gmail.com', '$2b$10$PtWy.3MUpLIhzkRN8KX.hO3er.VFMD/uH5FbPGRCF8h6hpZXtFml6', '2022-10-16 19:24:03.428567');
+INSERT INTO public.users VALUES (11, 'tunico', 'to@gmail.com', '$2b$10$o9jQIcilGf/wCfBVP3wXQu/qwyEch7VU2R5c2x6Hlm4jh9bG0c8sq', '2022-10-16 19:34:40.405932');
+INSERT INTO public.users VALUES (12, 'tinoco', 'ti@gmail.com', '$2b$10$0Nj5NXEugby0rwlroKPyAOu6g7KoFJpDZWYM1TOFm9T5AdKG/D64S', '2022-10-16 19:34:46.526272');
 
 
 --
@@ -200,7 +202,7 @@ SELECT pg_catalog.setval('public.urls_id_seq', 12, true);
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 10, true);
+SELECT pg_catalog.setval('public.users_id_seq', 12, true);
 
 
 --
