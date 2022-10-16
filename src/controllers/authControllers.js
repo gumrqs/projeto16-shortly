@@ -23,7 +23,7 @@ export async function postSignUp(req,res){
             INSERT INTO 
                 users(name, email, password)
             VALUES
-                ($1, $2, $3)
+                ($1, $2, $3);
         `,[name,email,passwordHash]
         );
 
