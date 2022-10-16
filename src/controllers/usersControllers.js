@@ -14,7 +14,9 @@ export async function getUsers(req,res){
         `,[user.id]
         );
         console.log('PASSEI DA QUERY')
+
         let totalVisits=0;
+        
         for(let i = 0; i < dataUsers.rows.length; i++){
             totalVisits += dataUsers.rows[i].visitCount;
         }
