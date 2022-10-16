@@ -27,7 +27,9 @@ export async function verifyToken(req,res, next){
                 id=$1;
         `, [sessions.rows[0].userId]
         );
-
+        if(user.rows.length === 0){
+            return res.sendStatus(404);
+        }
         delete user.rows[0].password;
 
         res.locals.user=user.rows[0];
